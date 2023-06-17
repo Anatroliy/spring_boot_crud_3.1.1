@@ -4,8 +4,6 @@ import com.springboot.crud.spring_boot_crud.model.User;
 import com.springboot.crud.spring_boot_crud.repositori.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 
 import java.util.List;
 
@@ -44,35 +42,3 @@ public class UserServiceImp implements UserService {
 //        userRepository.save(updatedUser);
 
     }
-
-//    @Override
-//    public List<User> getAllUsers() {
-//        return userRepository.getAllUsers();
-//    }
-//
-//    @Transactional
-//    @Override
-//    public void saveUser(User user) {
-//        userRepository.save(user);
-//
-//    }
-//
-//    @Transactional
-//    @Override
-//    public void deleteUser(Long id) {
-//        userDao.deleteUser(id);
-//
-//    }
-//
-//    @Override
-//    public User getUserById(Long id) {
-//        return userDao.getUserById(id);
-//    }
-//
-//    @Transactional
-//    @Override
-//    public void updateUser(Long id, User updatedUser) {
-//        userDao.updateUser(id, updatedUser);
-//
-//    }
-
